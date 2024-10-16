@@ -1,0 +1,479 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+/*header*/
+.header{
+    height: 95px;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.header-block-menu{
+    position: absolute;
+    display: flex;
+    width: 565px;
+    height: 98px;
+    margin-top: 32px;
+    margin-left: 180px;
+}
+
+.header-background-block{
+    width: 100%;
+    height: 16px;
+    background: #FFFFEF;
+    margin-top: 8px;
+}
+
+.header-block{
+    display: flex;
+    align-items: center;
+    Width: 1440px;
+    Height: 94px;
+    margin-top: 8px;
+    margin-left: 170px;
+}
+
+.header-menu{
+    display: flex;
+    padding-left: 18px;
+}
+
+.header-link{
+    margin-left: 63px;
+    margin-top: 47px;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+}
+
+.header-title{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    margin-left: 750px;
+    margin-top: 32px;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+}
+
+.header-logo{
+    display: flex;
+    margin-left: 1304px;
+    margin-top: 30px;
+}
+
+.header-logo-img{
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin: 8px;
+}
+/*header*/
+
+/*Good-Morning*/
+.Good-Morning{
+    height: 72px;
+    display: flex;
+    margin-top: 30px;
+    padding: 16px;
+}
+
+.Good-Morning-block{
+    display: flex;
+    width: 1360px;
+    height: 732px;
+    margin: 8px;
+    padding: 16px;
+    background: #FFFFEF;
+}
+
+.Good-Morning-img{
+    position: absolute;
+    width: 1328px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.Good-Morning-text{
+    position: absolute;
+    color: #56593D;
+    margin-top: 518px;
+    margin-left: 820px;
+    font-size: 45px;
+    font-family: lato, sans-serif;
+}
+
+.Good-Morning-title{
+    position: absolute;
+    display: flex;
+    color: #56593D;
+    margin-left: 1100px;
+    margin-top: 485px;
+    font-size: 18px;
+    font-family: lato, sans-serif;
+}
+
+.Good-Morning-btn{
+    position: absolute;
+    width: 154px;
+    height: 56px;
+    color: #FFFFEF;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    margin-left: 1124px;
+    margin-top: 590px;
+    background: #56593D;
+}
+
+.Good-Morning-btn:hover{
+    background-color: white;
+    color: #56593D;
+    transition: .6s;
+}
+/*Good-Morning*/
+
+/*Happy-Place*/
+.Happy-Place{
+    height: 302px;
+    display: flex;
+    margin-top: 800px;
+}
+
+.Happy-Place-block{
+    width: 1194px;
+    height: 243px;
+    justify-content: space-between;
+}
+
+.Happy-Place-text{
+    text-align: center;
+    font-size: 57px;
+    color: #56593D;
+    padding: 0 0 30px;
+    font-family: lato, sans-serif;
+}
+
+.Happy-Place-items{
+    text-align: center;
+}
+
+.Happy-Place-a{
+    font-size: 26px;
+    color: #56593D;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: lato, sans-serif;
+}
+/*Happy-Place*/
+
+/*Maple-Board*/
+.Maple-Board{
+    height: 768px;
+    display: flex;
+    margin-left: 265px;
+}
+
+.Maple-Board-block{
+    justify-content: center;
+    width: 1360px;
+    height: 738px;
+    background: #FFFFEF;
+}
+
+.Maple-Board-title{
+    justify-content: space-between;
+    margin-left: 578px;
+    margin-top: 63px;
+    font-size: 24px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.row{
+    display: flex;
+}
+
+.col-4{
+    margin-left: 32px;
+    margin-top: 95px;
+}
+
+.Maple-Board-text{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 120px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.Maple-Board-price{
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 165px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+/*Maple-Board*/
+
+/*The-Essentel*/
+.The-Essentel{
+    Height: 732px;
+    margin-top: 23px;
+    background: #FFFFEF;
+}
+
+.The-Essentel-block{
+    width: 1328px;
+    height: 700px;
+    margin-top: 16px;
+    margin-left: 280px;
+}
+
+.The-Essentel-title{
+    position: absolute;
+    margin-left: 586px;
+    margin-top: 60px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.The-Essentel-text{
+    position: absolute;
+    margin-left: 174px;
+    margin-top: 95px;
+    font-size: 50px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.The-Essentel-img{
+    position: absolute;
+}
+/*The-Essentel*/
+
+/*Our-Design*/
+.Our-Design{
+    height: 746px;
+    margin-top: 24px;
+    margin-left: 280px;
+}
+
+.Our-Design-block{
+    padding-left: 32px;
+    width: 1328px;
+    height: 618px;
+    margin-top: 64px;
+    margin-right: 32px;
+    background: #FFFFEF;
+}
+
+.Our-Design-title{
+    font-size: 29px;
+    margin-top: 95px;
+    margin-left: 160px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.Our-Design-text{
+    text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 33px;
+    margin-left: 100px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.Our-Design-img{
+    width: 40px;
+    height: 1px;
+    margin-top: 32px;
+    margin-left: 250px;
+}
+/*Our-Design*/
+
+/*Your-Table*/
+.Your-Table{
+    height: 746px;
+    margin-top: 24px;
+    margin-left: 280px;
+}
+
+.Your-Table-block{
+    text-align: center;
+    padding-left: 121px;
+    width: 1328px;
+    height: 886px;
+    background: #FFFFEF;
+}
+
+.Your-Table-title{
+    font-size: 29px;
+    margin-top: 64px;
+    margin-right: 116px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.Your-Table-img{
+    margin-top: 32px;
+    margin-right: 100px;
+}
+
+.Your-Table-text{
+    align-items: center;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 33px;
+    margin-right: 100px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+/*Your-Table*/
+
+/*newsletter*/
+.newsletter{
+    height: 279px;
+    margin-top: 230px;
+}
+
+.newsletter-block{
+    width: 1264px;
+    height: 215px;
+    margin-top: 30px;
+    margin-left: 300px;
+}
+
+.newsletter-title{
+    font-size: 28px;
+    margin-top: 236px;
+    margin-left: 473px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.newsletter-text{
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 460px;
+    color: #56593D;
+    font-family: lato, sans-serif;
+}
+
+.newsletter-form{
+    margin-top: 62px;
+    margin-left: 410px;
+}
+
+.newsletter-form-item{
+    width: 320px;
+    height: 20px;
+    border: 1px solid #56593D;
+    border-radius: 8px;
+}
+
+.newsletter-btn{
+    width: 144px;
+    height: 22px;
+    color: #FFFFEF;
+    background: #56593D;
+    border: none;
+    border-radius: 15px;
+    font-family: lato, sans-serif;
+}
+
+.newsletter-btn:hover{
+    background-color: white;
+    color: #56593D;
+    transition: .6s;
+}
+/*newsletter*/
+
+/*KinnMoments*/
+.KinnMoments{
+    height: 520px;
+}
+
+.KinnMoments-block{
+    width: 1360px;
+    height: 392px;
+    margin-left: 310px;
+}
+
+.KinnMoments-title{
+    color: #56593D;
+    font-size: 25px;
+    margin-left: 550px;
+    padding: 39px;
+    font-family: lato, sans-serif;
+}
+
+.col-3{
+    margin-left: 8px;
+}
+/*KinnMoments*/
+
+/*footer*/
+.footer{
+    display: flex;
+    height: 382px;
+}
+
+.footer-block{
+    width: 1424px;
+    height: 382px;
+    padding: 0 35px;
+    margin-left: 260px;
+    background: #717353;
+}
+
+.footer-item{
+    margin-top: 64px;
+    color: #FFFFEF;
+    font-size: 15px;
+    font-family: lato, sans-serif;
+}
+
+.footer-text{
+    margin-top: 17px;
+    color: #FFFFEF;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: lato, sans-serif;
+}
+
+.footer-subtitle{
+    margin-top: 17px;
+    color: #FFFFEF;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+}
+
+.footer-title{
+    margin-top: 64px;
+    color: #FFFFEF;
+    font-size: 16px;
+    font-family: lato, sans-serif;
+}
+
+.footer-content{
+    margin: 64px 124px 0 124px;
+}
+
+.footer-logo{
+
+}
+
+/*footer*/
+
+/**/
